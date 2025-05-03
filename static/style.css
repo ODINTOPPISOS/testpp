@@ -1,0 +1,26 @@
+.zxca{
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 25%;
+    padding:10px;
+    display:flex;
+    justify-content:center;
+    align-items:anchor-center;
+    
+}
+h1{
+    background-color: white;
+    color:black;
+    text-align: center;
+}
+body{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz1N0IUsz3bvcBy4pTuaVUa2F8xCH4ZS-epA&s');
+
+  /* Full height */
+  height: 100vh;
+  width: 100vw;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

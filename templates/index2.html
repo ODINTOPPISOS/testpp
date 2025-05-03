@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="static/style.css">
+    <title> My First Page</title>
+</head>
+<body>
+    <h1>{{i + 1}}.{{q}}</h1>
+    <form method="post", action="/test">
+        {% for z in v %}
+        <div class='zxca'>
+            <input type="radio"  name="ans_text" value="{{ z }}">
+            <span>{{z}}</span>
+        </div>
+        {% endfor %}
+
+        <input type="submit" value="Выбрать">
+    </form>
+</body>
+</html>
